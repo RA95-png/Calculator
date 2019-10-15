@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background: lightgray;
+  }
+
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
+  .calculator{
+    border:none;
+    border-radius: 5px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 21%;
+    height: 60%;
+    background-color: black;
+    padding: 5px;
+    
+  }
+
+  .numbers{
+    width: 100%;
+    font-size: 25px;
+    height: 48px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 10px;
+    outline: none;
+  }
+  .numbers::placeholder {
+    font-size: 25px;
+      color: white;
+  }
+  #m{
+    padding:18px 22px 15px 22px;
+  }
+  #decimal-point{
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  button {
+    height:58px;
+    border-radius: 50%;
+    background-color:rgb(116, 115, 115);
+    font-size: 2rem;
+    color:white;
+    border: 2px solid black;
+    margin: 4px, 2px;
+    padding: 20px;
+    outline: none;
+    cursor: pointer; 
+}
+.operator1:hover{
+  background-color:rgb(102, 101, 101);
+  color: white;
+}
+.operator1{
+    padding: 14px;
+    color: black;
+    background-color: #c4c4c4;
+}
+
+.operator2{
+  padding: 5px 19px 2px 19px;
+    background-color: orange;
+}
+.operator2:hover{
+  background-color:rgb(248, 82, 21);
+}
+
+  
+  
