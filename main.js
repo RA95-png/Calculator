@@ -9,7 +9,7 @@ const calculat= {
 
   ////////في حال انهاء العملية الحسابية, سيتم تحديث الالة الحاسبة وارجاعها للقيمة الافتراضية////////
   function updateCalculator() {
-    const display = document.querySelector('.calculator-screen');
+    const display = document.querySelector('.numbers');
     display.value = calculat.display_Value;
   }
   
@@ -25,22 +25,22 @@ keys.addEventListener('click', (event) => {
   }
 
   if (target.classList.contains('operator1')) {
-    console.log('operator', target.value);
+    console.log('operator1', target.value);
     return;
   }
 
   if (target.classList.contains('operator2')) {
-    console.log('operator', target.value);
+    console.log('operator2', target.value);
     return;
   }
 
 
-  if (target.classList.contains('decimal')) {
-    console.log('decimal', target.value);
+  if (target.classList.contains('dot')) {
+    console.log('dot', target.value);
     return;
   }
 
-  if (target.classList.contains('all-clear')) {
+  if (target.classList.contains('AC')) {
     console.log('clear', target.value);
     return;
   }
