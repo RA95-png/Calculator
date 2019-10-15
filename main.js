@@ -10,7 +10,7 @@ const calculat= {
   ////////في حال انهاء العملية الحسابية, سيتم تحديث الالة الحاسبة وارجاعها للقيمة الافتراضية////////
   function updateCalculator() {
     const display = document.querySelector('.calculator-screen');
-    display.value = calculator.displayValue;
+    display.value = calculat.display_Value;
   }
   
   updateCalculator();
